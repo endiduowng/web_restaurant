@@ -1,0 +1,40 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+	color: #6A4A3C;
+}
+ 
+#main{
+    width: 1350px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 100px;
+    background-color:#;
+    margin-bottom:5px;
+}
+#left{
+     width: 350px;
+     min-height: 400px;
+     float:left;
+     margin-bottom: 5px;
+}
+#content{
+     width: 980px;
+     min-height: 460px;
+     border: 3px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#footer{
+     height: 50px;
+     clear: both;
+     background-color:#FFF;
+}
+a{
+    text-decoration: none;
+	color:#06F;
+}

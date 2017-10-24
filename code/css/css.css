@@ -1,0 +1,51 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+.header{
+	width:100%;
+	height:40px;
+	background:#900;
+}
+.header a{
+	text-decoration:none;
+}
+.header a:hover{
+	text-decoration:underline;
+}
+.content{
+	background:url(../images/background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	height:500px;
+}
+.title{
+	font-size:50px;
+	color:#FFF;
+	text-align:center;
+	padding-top:50px;
+	font-weight:700px;
+	letter-spacing:-1px;
+	padding-bottom:15px;
+}
+.select{
+	text-align:center;
+}
+.search{
+	text-align:center;
+}
+.step{
+	background-image:url(../images/step.png);
+	width:100%;
+	height:300px;
+}
+.footer{
+	width:100%;
+	height:100px;
+	background-image:url(../images/lienhe.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}

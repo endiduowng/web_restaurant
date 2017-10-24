@@ -1,0 +1,148 @@
+/* CSS Document */
+
+body{
+    font-family: "Ubuntu", sans-serif;
+	color: #6A4A3C;
+}
+#main{
+    width: 1400px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 150px;
+    margin-bottom:5px;
+	
+}
+#head-link{
+     height: 40px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: #FFF;
+     margin-bottom:5px;
+     clear: both;
+}
+#left{
+     width: 300px;
+     float:left;
+	 min-height:1250px;
+     background-color: #FFF;
+     margin-bottom: 5px;
+	
+}
+#content{
+     width: 900px;
+     float:left;
+	 min-height:850px;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#right{
+     width:100px;
+	 min-height:850px;
+     float:right;
+     margin-bottom: 5px;
+}
+#footer{
+	position:relative;
+	top:2000px;
+     height: 50px;
+     clear: both;
+	 clear: both;
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+ 
+a:visited{
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+ 
+a:active{
+    color: white;
+    text-decoration: none;
+}
+.hovergallery img{ -webkit-transform:scale(1.00); /*Webkit: Scale down image to 0.8x original size*/ -moz-transform:scale(1.00); /*Mozilla scale version*/ -o-transform:scale(1.00); /*Opera scale version*/ -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/ -moz-transition-duration: 0.5s; /*Mozilla duration version*/ -o-transition-duration: 0.5s; /*Opera duration version*/ opacity: 0.7; /*initial opacity of images*/ margin: 0 10px 5px 0; /*margin between images*/ } .hovergallery img:hover{ -webkit-transform:scale(1.2); /*Webkit: Scale up image to 1.2x original size*/ -moz-transform:scale(1.2); /*Mozilla scale version*/ -o-transform:scale(1.2); /*Opera scale version*/ box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/ -webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/ -moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/ opacity: 1; }
+#searchbox {
+	width: 280px;
+	background: url(http://1.bp.blogspot.com/-dwLNyhnHlTg/VEQZwf9drLI/AAAAAAAAAlg/rbd0HN4EZrY/s1600/search-box.png) no-repeat;
+}
+#searchbox input {
+    outline: none;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+#searchbox input[type="text"] {
+	background: transparent;
+	border: 0px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 14px;
+    color: #f2f2f2 !important;
+    padding: 10px 35px 10px 20px;
+    width: 220px;
+}
+#searchbox input[type="text"]:focus {
+	color: #fff;
+}
+#button-submit{
+	background: url(http://4.bp.blogspot.com/-4MYBYE0i0Xk/VEQYlljvriI/AAAAAAAAAlQ/_TRkRG5EX1c/s1600/search-icon.png) no-repeat;
+	margin-left: -40px;
+	border-width: 0px;
+	width: 40px;
+	height: 50px;
+}
+#button-submit:hover {
+	background: url(http://4.bp.blogspot.com/-6S4K8eHPM-c/VEQdf7l84GI/AAAAAAAAAls/j7_kGSpkIfg/s1600/search-icon-hover.png);
+}
+
+.label {
+	margin-right: 15px;
+}
+input[type="radio"] + label:before {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 700; 
+	content: "";
+	border: 1px solid #00A0B0;
+	margin: -4px 6px 0 0;
+	border-radius: 4px;
+	background-clip: padding-box;
+	-webkit-box-shadow: inset 1px 1px 4px 0px #6A4A3C;
+	box-shadow: inset 1px 1px 3px 0px #6A4A3C;
+}
+input[type="radio"] + label:before {
+	border-radius: 100%;
+	background-clip: padding-box;
+}
+input[type="radio"]:checked + label:before {
+	background: url('image/heart.png') no-repeat center center;
+	background-size: 20px;
+	border: 1px solid white;
+	font-size: 50px;
+	line-height: 18px;
+}
+.fix-box{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
