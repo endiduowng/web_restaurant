@@ -1,0 +1,105 @@
+<style>
+body{
+  	font-family: "Ubuntu", sans-serif;
+	color: #6A4A3C;
+}
+ 
+#main{
+    width: 1355px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 120px;
+    margin-bottom:5px;
+}
+#left{
+     width:650px;
+     min-height: 400px;
+     float:left;
+     background-color:#FFF;
+     margin-bottom: 5px;
+}
+#content{
+     width: 4px;
+     min-height: 400px;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#right{
+     width: 685px;
+     min-height: 400px;
+     float:right;
+     margin-bottom: 5px;
+}
+#footer{
+     height: 100px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #FFF;
+}
+.tb10 {
+	background-repeat:repeat-x;
+	border:3px solid #d1c7ac;
+	width: 300px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+}
+.button{
+background: #CCC; /*màu nền của nút*/
+border: 3px  outset;
+padding: 0 2px;
+text-decoration: none;
+font: bold 25px Verdana; /*kích thước của text*/
+color:#FFF; /*màu text*/
+}
+
+.button:hover {
+background:#CCC; /*màu nền của nút khi rê chuột*/
+padding: 2px 3px 0 5px; /*màu text khi rê chuột*/
+}
+
+.button:visited {
+background: #00ffff; /*màu nền của nút sau khi click chuột*/
+color:#ff6600; /*màu text khi đã click chuột*/
+}
+
+.button:active{
+color: white;
+}
+a {
+text-decoration:none;
+}
+#menu ul {
+  		background:#F60;
+  		list-style-type:none;
+  		text-align:center;
+		}
+	#menu li {
+		color:#FFF;
+		display:inline-block;
+		width:300px;
+		height:80px;
+		line-height: 80px;
+		margin-left: 0px;
+		font-size:26px;
+		}
+	#menu a {
+  		text-decoration:inherit;
+  		color: #fff;
+  		display: block;
+		}
+	#menu a:hover {
+  		background:#FFF;
+  		color:#F60;
+		}
+	#bg {
+		background:#FFF;
+		}
+</style>
+
